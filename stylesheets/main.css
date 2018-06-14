@@ -1,0 +1,187 @@
+.square1 {
+  float: left;
+  width: 92vw;
+  height: 7vh;
+  background-color: rgb(29,29,29);
+  color: rgb(226,233,243);
+  box-sizing: border-box;
+  padding-left: 2vw;
+  font-size: 23;
+  font-family: Arial;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.square2 {
+  float: right;
+  width: 8vw;
+  height: 7vh;
+  background-color: rgb(100,138,42);
+  color: white;
+  font-size: 13;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square3 {
+  float: right;
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(14,47,95);
+  border-top: 1px solid rgb(141,145,151);
+  border-bottom: 1px solid rgb(141,145,151);
+  color: white;
+  font-size: 13;
+  font-family: Arial;
+  word-spacing: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first_image {
+  width: 100%;
+  height: 475px;
+  overflow:hidden;
+}
+
+.first_image img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.top_left {
+  position: absolute;
+  top: 120px;
+  box-sizing: border-box;
+  padding-left: 2vw;
+  color: white;
+  font-size: 23;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.square4 {
+  width: 100vw;
+  height: 18vh;
+  background-color: rgb(29,29,29);
+  color: rgb(226,233,243);
+  box-sizing: border-box;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 13;
+  font-family: Arial;
+  display: table-cell;
+  vertical-align:middle;
+}
+
+.square5 {
+  width: 100vw;
+  height: 30vh;
+  overflow:hidden;
+  background-color: rgb(219,226,236);
+  color: rgb(29,29,29);
+  font-size: 17;
+  font-family: Arial;
+}
+
+.larimer_image {
+  width: 100%;
+  height: 170px;
+  overflow:hidden;
+  position: absolute;
+  transform: translateY(30%);
+  padding-left: 6vw;
+}
+
+.larimer_image img {
+  width: 350px;
+  height: 200px;
+  overflow:hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bridge_image {
+  width: 100%;
+  height: 170px;
+  overflow:hidden;
+  position: absolute;
+  transform: translateY(30%);
+  display: flex;
+  justify-content: center;
+}
+
+.bridge_image img {
+  width: 350px;
+  height: 200px;
+  overflow:hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.house_image {
+  width: 100%;
+  height: 170px;
+  overflow:hidden;
+  position: absolute;
+  transform: translateY(30%);
+  padding-left: 70vw;
+}
+
+.house_image img {
+  width: 350px;
+  height: 200px;
+  overflow:hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.larimer_text {
+  float: left;
+  font-size: 16;
+  font-family: Arial;
+  font-weight: bold;
+  padding-left: 6vw;
+  transform: translateY(200%);
+}
+
+.bridge_text {
+  float: left;
+  font-size: 16;
+  font-family: Arial;
+  font-weight: bold;
+  padding-left: 24vw;
+  transform: translateY(200%);
+}
+
+.house_text {
+  float: right;
+  font-size: 16;
+  font-family: Arial;
+  font-weight: bold;
+  padding-right: 19vw;
+  transform: translateY(200%);
+}
+
+.square6 {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(29,29,29);
+  color: rgb(226,233,243);
+  box-sizing: border-box;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 13;
+  font-family: Arial;
+  display: table-cell;
+  vertical-align:middle;
+}
